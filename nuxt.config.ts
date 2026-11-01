@@ -19,14 +19,14 @@ export default defineNuxtConfig({
         { rel: "icon", type: "image/png", href: "/fe-porto/favicon.png" },
         { rel: "apple-touch-icon", href: "fe-porto/apple-touch-icon.png" },
       ],
-    }
+    },
   },
 
   css: ["~/assets/css/main.css"],
 
   colorMode: {
-    preference: "dark",
-    fallback: "dark",
+    preference: "light",
+    fallback: "light",
     classSuffix: "",
   },
 
